@@ -1,0 +1,3 @@
+extract unique values
+merge 2 dictionaries
+convert lists or tuples into a dictionary

@@ -1,0 +1,3 @@
+find the size of a tuple
+extract tuples
+sort a list of tuples from the 2nd index

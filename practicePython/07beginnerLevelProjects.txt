@@ -1,0 +1,19 @@
+simple calculator
+to-do list
+weather app
+number guessing game
+hangman
+dice-rolling sim
+text-baised adventure game
+simple chatbot
+currency converter
+password generator
+
+tic-tac-toe
+personal budget tracker
+weather forecast app
+text-baised RPG
+file encryption
+book reccomendation system
+social media analytics 
+text summariser

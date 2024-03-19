@@ -1,0 +1,2 @@
+This is an example text to write into a file.
+This is a new data set appended to the file lol
