@@ -21,4 +21,3 @@ def runtimeError() -> None:
     y = 0
     result = x / y
     print(result) # cannot divide by 0
-
