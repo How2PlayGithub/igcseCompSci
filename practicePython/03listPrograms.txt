@@ -1,5 +1,0 @@
-create a list of your favourite food
-find length of a list
-print the first and last element
-find the average
-reverse the list

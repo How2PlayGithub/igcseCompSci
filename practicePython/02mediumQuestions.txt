@@ -1,0 +1,5 @@
+Write a Python program that takes a list of integers as input and returns a new list containing only the prime numbers from the original list.
+
+Write a Python program to implement a basic calculator that can perform addition, subtraction, multiplication, and division. The program should prompt the user to enter two numbers and the operation they want to perform.
+
+

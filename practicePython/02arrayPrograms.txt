@@ -1,2 +1,0 @@
-sum of an array
-find largest element

@@ -1,0 +1,70 @@
+FUNCTION linearSearch(arr: LIST, target: INTEGER) -> INTEGER
+    FOR iteration FROM 0 TO LENGTH(arr) - 1 DO
+        IF arr[iteration] == target THEN
+            RETURN iteration
+        END IF
+    END FOR
+    RETURN -1
+
+FUNCTION binarySearch(arr: LIST, target: INTEGER) -> INTEGER
+    low <- 0
+    high <- LENGTH(arr) - 1
+    WHILE low <= high DO
+        mid <- (low + high) // 2
+        IF arr[mid] == target THEN
+            RETURN mid
+        ELSE IF arr[mid] < target THEN
+            low <- mid + 1
+        ELSE
+            high <- mid - 1
+        END IF
+    END WHILE
+    RETURN -1
+
+FUNCTION bubbleSort(arr: LIST) -> NONE
+    number <- LENGTH(arr)
+    FOR iteration FROM 0 TO number - 1 DO
+        FOR j FROM 0 TO number - iteration - 2 DO
+            IF arr[j] > arr[j + 1] THEN
+                SWAP(arr[j], arr[j + 1])
+            END IF
+        END FOR
+    END FOR
+FUNCTION insertionSort(arr: LIST) -> NONE
+    FOR i FROM 1 TO LENGTH(arr) - 1 DO
+        key <- arr[i]
+        j <- i - 1
+        WHILE j >= 0 AND key < arr[j] DO
+            arr[j + 1] <- arr[j]
+            j <- j - 1
+        END WHILE
+        arr[j + 1] <- key
+    END FOR
+
+FUNCTION quickSort(arr: LIST) -> LIST
+    IF LENGTH(arr) <= 1 THEN
+        RETURN arr
+    END IF
+    pivot <- arr[LENGTH(arr) // 2]
+    left <- [x FOR x IN arr IF x < pivot]
+    middle <- [x FOR x IN arr IF x == pivot]
+    right <- [x FOR x IN arr IF x > pivot]
+    RETURN quickSort(left) + middle + quickSort(right)
+
+array <- [1, 3, 5, 9, 11, 7, 64, 34, 25, 12, 22, 11, 90]
+targetNumber <- 7
+
+PRINT "Index of " + targetNumber + " is " + linearSearch(array, targetNumber) + " (unsorted)"
+
+CALL bubbleSort(array)
+PRINT "Sorted array: " + array + " (bubble sort)"
+
+array <- [1, 3, 5, 9, 11, 7, 64, 34, 25, 12, 22, 11, 90]
+CALL insertionSort(array)
+PRINT "Sorted array: " + array + " (insertion sort)"
+
+array <- [1, 3, 5, 9, 11, 7, 64, 34, 25, 12, 22, 11, 90]
+sortedArr <- quickSort(array)
+PRINT "Sorted array: " + sortedArr + " (quick sort)"
+
+PRINT "Index of " + targetNumber + " is " + binarySearch(sortedArr, targetNumber) + " (sorted)"

@@ -1,0 +1,16 @@
+// Example of Integer
+UserInteger <- 32
+
+// Example of Float / Real Number
+// Note that in pseudocode, they call it a 'real' instead of a 'float'
+UserReal <- 32.28321973
+
+// Example of String
+Userstring <- "Hello World"
+
+// Example of Boolean
+Userboolean <- True
+
+// Example of a Char 
+Userchar <- 'A'
+

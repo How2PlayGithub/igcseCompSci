@@ -1,5 +1,0 @@
-check if a string is a palindrome
-reverse words in a given string
-count the most common letter
-check for url
-replace all occurences of a substring in a string

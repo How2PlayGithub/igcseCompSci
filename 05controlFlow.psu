@@ -1,0 +1,50 @@
+// Conditional Statements
+FUNCTION conditionalStatements(number: INTEGER)
+    IF number > 0 
+        THEN
+            OUTPUT "number is positive"
+    ELSE IF number < 0
+        THEN
+            OUTPUT "number is negative"
+    ELSE IF number == 0
+        THEN
+            OUTPUT "number is zero"
+    ELSE
+        OUTPUT "number is not a number"
+    END IF
+END
+
+// For loops - Count Controlled
+FUNCTION forLoop()
+// Outputs the numbers: 1, 2, 3, 4, 5
+    FOR i = 1 TO 5
+        OUTPUT i
+    END FOR
+END
+
+// While loops - Conditional loop
+FUNCTION whileLoop(numberFactorial)
+    factorial <- 1
+    WHILE numberFactorial > 0
+        factorial <- factorial * numberFactorial
+        numberFactorial <- numberFactorial - 1
+    END WHILE
+    OUTPUT factorial
+END
+
+// Loop control statements
+FUNCTION loopControlStatements()
+    FOR i = 1 TO 5
+        DO
+        IF i == 5
+        THEN
+            EXIT FOR
+        END IF
+        OUTPUT i
+    END FOR
+END
+
+// Calling functions
+controlNumber <- 5
+CALL conditionalStatements(controlNumber)
+CALL whileLoop(controlNumber)

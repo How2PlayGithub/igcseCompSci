@@ -1,9 +1,0 @@
-add two numbers
-larger of the two numbers
-factorial of a number
-simple interest
-compound interest
-area of a square
-area of a rectangle
-area of a triangle
-area of a circle

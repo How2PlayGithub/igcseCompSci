@@ -1,0 +1,18 @@
+INPUT NumOne
+INPUT NumTwo
+
+// Addition
+OUTPUT NumOne + NumTwo
+// Subtraction
+OUTPUT NumOne - NumTwo
+// Multiplication
+OUTPUT NumOne * NumTwo
+// Division
+OUTPUT NumOne / NumTwo
+// Power
+OUTPUT NumOne ** NumTwo
+
+// Modulus -> Gives the remainder
+OUTPUT NumOne % NumTwo
+// Floor Division -> ignores decimals when dividing
+OUTPUT NumOne // NumTwo

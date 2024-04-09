@@ -1,0 +1,15 @@
+Write a python program that prints 'Hello World'
+
+Write a Python program that asks the user to enter their name then outputs 'Hello [name]!'
+
+Write a Python program that takes two numbers and sums them
+
+Write a Python program that calculates the area of a triangle
+
+Write a Python program that takes a list of numbers as input and prints the maximum and minimum numbers in the list
+
+Write a Python program that asks the user to enter a temperature in Celsius and converts it to Fahrenheit
+
+Write a Python program that takes a string as input and prints the number of vowels (a, e, i, o, u) in the string
+
+

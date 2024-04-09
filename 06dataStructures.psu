@@ -1,0 +1,72 @@
+FUNCTION lists()
+    myList <- [1, 2, 3, 4, 5]
+    OUTPUT "Original list: " + myList
+
+    // accessing elements
+    OUTPUT "First element: " + myList[0]
+    OUTPUT "Last element: " + myList[LENGTH(myList) - 1]
+
+    // adding elements
+    myList.append(6)
+    OUTPUT "After adding 6: " + myList
+
+    // removing elements
+    myList.remove(6)
+    OUTPUT "After removing 6: " + myList
+
+    //popping elements
+    poppedElement <- myList.pop()
+    OUTPUT "Popped element: " + poppedElement
+    OUTPUT "List after popping: " + myList
+END
+
+FUNCTION tuples()
+    OUTPUT "\nTuples:"
+    myTuple <- (1, 2, 3, 4, 5)
+    OUTPUT "Original tuple: " + myTuple
+
+    // accessing elements
+    OUTPUT "First element: " + myTuple[0]
+    OUTPUT "First element: " + myTuple[LENGTH(myTuple) - 1]
+    // note that tuples are IMMUTABLE (unchangeable)
+END
+
+FUNCTION dictionaries()
+    OUTPUT "\nDictionaries:"
+    myDictionary <- {"name": "Putin", "age": 71, "city": "Moscow"}
+    OUTPUT "Original dictionary: " + myDictionary
+
+    // accessing elements
+    OUTPUT "Name: " + myDictionary["name"]
+    OUTPUT "Age: " + myDictionary["age"]
+    OUTPUT "City: " + myDictionary["city"]
+
+    // dictionary methods
+    OUTPUT "Keys: " + myDictionary.keys()
+    OUTPUT "Values: " + myDictionary.values()
+    OUTPUT "Items: " + myDictionary.items()
+END
+
+FUNCTION sets()
+    OUTPUT "\nSets:"
+    mySet1 <- {1, 2, 3, 4, 5}
+    mySet2 <- {4, 5, 6, 7, 8}
+
+    // adding elements
+    mySet1.add(6)
+    OUTPUT "After adding 6 to Set 1: " + mySet1
+
+    // removing elements
+    mySet1.remove(6)
+    OUTPUT "After removing 6 from Set 1: " + mySet1
+
+    // set methods
+    OUTPUT "Union: " + mySet1.union(mySet2)
+    OUTPUT "Intersection: " + mySet1.intersection(mySet2)
+END
+
+CALL lists()
+CALL tuples()
+CALL dictionaries()
+CALL sets()
+

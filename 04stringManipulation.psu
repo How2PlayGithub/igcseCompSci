@@ -1,0 +1,45 @@
+userString <- "Hello World! This is a sample string for the string manipulation lesson!"
+
+// Length of string
+OUTPUT length(userString)
+
+// First character
+OUTPUT userString[0]
+
+// Last character
+OUTPUT userString[length(userString)-1]
+
+// Substring
+OUTPUT userString[2:5]
+
+// Connecting strings
+str1 <- "hello"
+str2 <- "world"
+connectedString <- str1 + " " + str2
+
+// Lowercase
+OUTPUT lower(userString)
+
+// Uppercase
+OUTPUT upper(userString)
+
+// Capitalize
+OUTPUT capitalize(userString)
+
+// Search for a substring
+substring = "sample"
+OUTPUT COUNT_OCCURRENCES(userString, substring)
+
+// Find index of substring
+OUTPUT FIND(userString, substring)
+
+// Replace substring
+oldSubstring <- "sample"
+newSubstring <- "example"
+OUTPUT Replace(userString, oldSubstring, newSubstring)
+
+// Split string
+OUTPUT SPLIT(userString, " ")
+
+// Join string
+OUTPUT JOIN(userString, " ")

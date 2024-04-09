@@ -1,0 +1,15 @@
+Create a simple Banking System
+
+In the 1D array, it includes the account holders name that are in the system. In the 2D array, it
+includes the card number, account number, and the amount of money in the account. The position of
+each account's data in the two arrays are the same. 
+
+Get the input of the accoutn holders name, output the:
+card number
+account number
+amount of money
+And then ask if they would want to deposit or withdraw money.
+If they want to deposit money, add the money to the account and output the new amount of money.
+If they want to withdraw money, subtract the money from the account and output the new amount of money.
+
+

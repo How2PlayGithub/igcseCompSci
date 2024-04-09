@@ -1,0 +1,39 @@
+INPUT userInputOne
+INPUT userInputTwo
+
+// Check if userInputOne is equal to userInputTwo
+IF userInputOne == userInputTwo 
+    THEN
+        OUTPUT "userInputOne is equal to userInputTwo"
+ENDIF
+
+// Check if userInputOne is not equal to userInputTwo
+IF userInputOne != userInputTwo
+    THEN
+        OUTPUT "userInputOne is not equal to userInputTwo"
+ENDIF
+
+// Check if userInputOne is greater than userInputTwo
+IF userInputOne > userInputTwo
+    THEN
+        OUTPUT "userInputOne is greater than userInputTwo"
+ENDIF
+
+// Check if userInputOne is less than userInputTwo
+IF userInputOne < userInputTwo
+    THEN
+        OUTPUT "userInputOne is less than userInputTwo"
+ENDIF
+
+// Check if userInputOne is greater than or equal to userInputTwo
+IF userInputOne >= userInputTwo
+    THEN
+        OUTPUT "userInputOne is greater than or equal to userInputTwo"
+ENDIF
+
+// Check if userInputOne is less than or equal to userInputTwo
+IF userInputOne <= userInputTwo
+    THEN
+        OUTPUT "userInputOne is less than or equal to userInputTwo"
+ENDIF
+

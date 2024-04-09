@@ -1,0 +1,41 @@
+FUNCTION writeToFile(filename: STRING)
+    data <- "This is an example text to write into a file."
+    // use try and except so that if the program crashes, it'll close
+    TRY
+        OPEN filename FOR WRITE AS file
+        WRITE data TO file
+        CLOSE file
+        OUTPUT "Data has been written to " + filename
+    EXCEPT
+        OUTPUT "Error. Could not write to " + filename
+
+// reading data from a file
+FUNCTION readFromFile(filename: STRING)
+    TRY
+        OPEN filename FOR READ AS file
+        data <- READ data FROM file
+        CLOSE file
+        OUTPUT "data read from " + filename
+        OUTPUT data
+    EXCEPT
+        OUTPUT "Error. Could not read from " + filename
+
+// adding data to a file
+FUNCTION appendToFile(filename: STRING, newData: STRING)
+    TRY
+        OPEN filename FOR APPEND AS file
+        WRITE "\n" + newData TO file
+        CLOSE file
+        OUTPUT "Data appended to " + filename
+    EXCEPT
+        OUTPUT "Error. Could not write to " + filename
+
+filename <- "07Sample.txt"
+CALL writeToFile(filename)
+CALL readFromFile(filename)
+
+newData <- "This is a new data set appended to the file lol"
+CALL appendToFile(filename, newData)
+
+CALL readFromFile(filename)
+
