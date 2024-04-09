@@ -1,5 +1,6 @@
 # Repo Info
 This repo is made for IGCSE Computer Science. Not just python basics.
+Note that the files with '.py' is python and the ones with '.psu' is pseudocode.
 
 ## Installation 
 If you want to see it, you can either see it on the browser or clone it with:
