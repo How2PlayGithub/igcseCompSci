@@ -1,5 +1,5 @@
 # Repo Info
-This repo is made for IGCSE Computer Science. Not just python basics
+This repo is made for IGCSE Computer Science. Not just python basics.
 
 ## Installation 
 If you want to see it, you can either see it on the browser or clone it with:
