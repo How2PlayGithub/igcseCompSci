@@ -1,0 +1,55 @@
+The basic SQL queries are:
+'SELECT'
+'WHERE'
+'ORDER BY'
+
+'COUNT'
+'SUM'
+'AVG'
+'MIN'
+'MAX'
+
+'GROUP BY'
+'HAVING'
+
+Data Modification Statements:
+'INSERT INTO'
+'UPDATE'
+'DELETE FROM'
+
+Database Creation and Table Definition:
+'CREATE DATABASE'
+'CREATE TABLE'
+
+Constraints:
+'PRIMARY KEY' - must be unique
+'FOREIGN KEY'- must exist in another table
+'NOT NULL' - not null values
+'UNIQUE' - unique values
+'CHECK' - check values
+
+Datatypes:
+'INT'
+'DECIMAL'
+'FLOAT' / 'REAL'
+'DOUBLE'
+
+'CHAR(n)'
+'VARCHAR(n)'
+'TEXT'
+
+'DATE'
+'TIME'
+'DATETIME' / 'TIMESTAMP'
+'TIMESTAMP WITH TIME ZONE'
+
+'BOOL'
+
+'BINARY' - fixed-length binary string
+'VARBINARY' - variable-length binary string
+'BLOB' - variable-length binary stored as a single entity
+
+Simple join:
+'INNER JOIN'
+'LEFT JOIN'
+'RIGHT JOIN'

@@ -49,15 +49,15 @@ def insertionSort(arr: list) -> None:
 # selects a pivot,rearranges the array so all the smaller elements are placed before it and
 # all the greater elements are placed after. It recursively applys the process to the sub-arrays
 # on either side of the pivot until the entire array is sorted.
-def quickSort(arr: list) -> list:
+def quickSort(arr):
     if len(arr) <= 1:
         return arr
-    else:
-        pivot = arr[0]
-        lessThanPivot = [x for x in arr[1:] if x <= pivot]
-        greaterThanPivot = [x for x in arr[1:] if x > pivot]
-        return quickSort(lessThanPivot) + [pivot] + quickSort(greaterThanPivot)
-    
+    pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quickSort(left) + middle + quickSort(right)    
+
 def main() -> None:
     array = [1, 3, 5, 9, 11, 7, 64, 34, 25, 12, 22, 11, 90]
     targetNumber = 7
