@@ -5,13 +5,13 @@
 ## 'Off' is '0'
 
 **NOT gate**
-![NOT gate](blob:https://docs.google.com/93ed7831-daeb-4e93-8b80-4db56169e3f4)
+![NOT gate](/src/images/image2.png)
 
 **AND gate**
-![AND gate](blob:https://docs.google.com/0d827298-ab56-4f62-852f-55d454cb27aa)
+![AND gate](/src/images/image8.png)
 
 **OR gate**
-![OR gate](blob:https://docs.google.com/f95d1a98-317a-4c2d-b4d4-020f29e0a166)
+![OR gate](/src/images/image5.png)
 
 **NAND gate**
-![NAND gate](blob:https://docs.google.com/e55b8d6c-fa71-4c57-b801-4828145fd48b)
+![NAND gate](/src/images/image3.png)
