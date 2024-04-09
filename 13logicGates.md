@@ -1,8 +1,6 @@
 # Logic Gates
 
-## Note that the Truth Tables use 'On' and 'Off' instead of '1' and '0'.
-## 'On' is '1'
-## 'Off' is '0'
+## Note that the Truth Tables use 'On' and 'Off' instead of '1' and '0'. 'On' is '1', 'Off' is '0'
 
 **NOT gate**
 ![NOT gate](/src/images/image2.png)
