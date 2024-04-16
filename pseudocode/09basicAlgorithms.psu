@@ -30,6 +30,7 @@ FUNCTION bubbleSort(arr: LIST) -> NONE
             END IF
         END FOR
     END FOR
+
 FUNCTION insertionSort(arr: LIST) -> NONE
     FOR i FROM 1 TO LENGTH(arr) - 1 DO
         key <- arr[i]
