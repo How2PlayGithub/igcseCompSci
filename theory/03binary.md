@@ -53,4 +53,18 @@ At the end, the added values will be:
 The value of this will be: `173`
 So, the binary `10101101` will be `173` in denary.
 
+## Convert denary to binary
+Take the dinary '103'
+1. Find the highest number possible with 2^x. In this case, it is 2^6. So at the very least, it will have 6 numbers.
+` 100000`
+2. 2^6 is 64. Minus the initial with the calculated, so 103 - 64 = 39. The next possible is 2^5 (32)
+3. Repeat
+At the end, it will be
+```
+2^6 + 2^5 + 2^2 + 2^1 + 2^0
+```
+So, the binary will be `1100111` for the denary `103`.
 
+## Most and least significant
+- The most significant bit (MSB) is the bit with the `largest` value.
+- The least significant bit (LSB) is the bit with the `smallest` value.
