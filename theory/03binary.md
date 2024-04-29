@@ -72,6 +72,10 @@ At the end, it will be
 ```
 So, the binary will be `1100111` for the denary `103`.
 
+## Even or odd?
+- For even numbers, the number at the end of a binary sequence will be '0'
+- For odd numbers, the number at the end of a binary sequence will be a '1' 
+
 ## Most and least significant
 - The most significant bit (MSB) is the bit with the `largest` value.
 - The least significant bit (LSB) is the bit with the `smallest` value.
