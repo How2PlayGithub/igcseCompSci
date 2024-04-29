@@ -15,12 +15,13 @@
 Take the binary sequence `1101110` and `11011110`. To add them together:
 1. Convert both the bytes into 8 bits. In our case, it'll be `01101110` and `11011110`
 2. Add the values. If the answer is 2, carry it over into the next column
+
 |  Carry |     1    | 1 | 1 | 1 | 1 | 1 | 1 |   |   |
 |--------|----------|---|---|---|---|---|---|---|---|
 | Byte 1 |          | 0 | 1 | 1 | 0 | 1 | 1 | 1 | 0 |
 | Byte 2 |          | 1 | 1 | 0 | 1 | 1 | 1 | 1 | 0 |
 |        | Overflow |   |   |   |   |   |   |   |   |
-| Answer | 1 | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 |
+| Answer |     1    | 0 | 1 | 0 | 0 | 1 | 1 | 0 | 0 |
 
 ## Logical shifts
 - A logical shift means to move a binary digit to either the left or the right
