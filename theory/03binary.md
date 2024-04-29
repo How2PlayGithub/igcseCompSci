@@ -38,6 +38,12 @@ A bit is always 2^x (power of) where x is the number of bits. For example:
 - 3 bits: 8 combinations (2^3)
 etc
 
+## Find the biggest number in x bits:
+Calculate the number of combinations (2^x) - 1
+For example:
+- 3 bits: 7 numbers
+- 32 bits: 4,294,967,295 numbers
+
 ## What is denary and binary?
 Denary is a base 10 number system (0-9) while Binary is a base 2 number system(0, 1)
 
