@@ -15,6 +15,7 @@ Computers use a **binary number system** consisting of only 0's and 1's
 Computers only take **2 states**:
 - Off (0)
 - On (1)
+
 This format is used for storing:
 - Text
 - Numbers
