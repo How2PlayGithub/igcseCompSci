@@ -1,0 +1,37 @@
+The 1D array TeamName[] contains the names of teams in a sport league
+The 2D array TeamPoints[] contains the points awarded for each match
+The position of each team's data in the two arrays is the same. For example, the team
+stored at index 10 in TeamName[] and TeamPoints[] is the same.
+
+The variable LeagueSize contains the number of teams in the league. The variable MatchNo
+contains the number of matches played. All teams have played the same number of games.
+
+The arrays and variables have already been set up and the data stored.
+
+Each match can be played at home or away. Points are recorded for the match results of each
+team with the following values:
+3 - away win
+2 - home win
+1 - drawn match
+0 - lost match
+
+Write a program that meets the following requirement:
+calculate the total points for each team
+count the total number of away wins, home wins, drawn matches and lost matches
+output for each team:
+    name
+    total points
+    total number of away, home, drawn and lost
+find and output:
+    the name of the team with highest points, and the number of points
+    the name of the team with the lowest points, and the number of points
+
+You must use pseudocode or program code AND add comments to explain how your code works
+
+You do NOT need to declare any arrays, variables, or constants; you may assume that this
+has already been done.
+
+All inputs and outputs must contain suitable messages
+
+You do NOT need to initialise the data in the arrays TeamName[] and TeamPoints[] or the 
+variable LeagueSize and MatchNo
