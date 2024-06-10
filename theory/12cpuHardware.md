@@ -8,9 +8,9 @@
     - Processor: contains the ALU (Arithmetic Logic Unit)
     - Control Unit: controls the operation of the memory and processor and io devices
     - Arithmetic Logic Unit: carries out the logic system
-    - System Clock: produce timing siginals on the control bus
+    - System Clock: produce timing signals on the control bus
 
-## Busses
+## Buses
 - 3 main bus types:
     - Address bus
     - Data bus
